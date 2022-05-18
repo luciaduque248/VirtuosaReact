@@ -1,4 +1,5 @@
 import '../header/header.css';
+import mapaVirtuosa from './mapa.png';
 
 import React from "react";
 
@@ -9,7 +10,7 @@ function Navbar() {
                 <div class="box">
                     <h2>Visitanos</h2>
                     <h4>Cra. 14a #82-27</h4>
-                    
+                    <a href='https://goo.gl/maps/Ex7GE3LofT1q8U6m8'><img src={mapaVirtuosa} alt='mapa' className='mapa'/></a>
                 </div>
 
                 <div class="box">

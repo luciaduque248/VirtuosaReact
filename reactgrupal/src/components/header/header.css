@@ -218,12 +218,11 @@ footer .grupo-1 .box h4 {
 
 }
 
-footer iframe {
-    border-radius: 100%;
-    margin: 1rem 0;
+footer .mapa{
+    margin: 1rem auto;
     position: relative;
-    left: 1.2rem;
-    display: none;
+    left: 0.5rem;
+    width: 100%;
 }
 
 footer .grupo-1 .box h2 {
