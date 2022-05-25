@@ -197,7 +197,6 @@ footer {
     color: #fff;
     z-index: 10;
     border-top: solid;
-    ;
 }
 
 footer .grupo-1 {
@@ -409,4 +408,66 @@ footer .grupo-2 small {
 
 
 
+}
+
+
+/*--------------------- | RESOLUCIÓN CELULAR | ---------------------*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    footer .grupo-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 2rem;
+        position: relative;
+    }
+
+    footer .grupo-1 .box h2 {
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 300;
+    
+    }
+    footer .grupo-1 .box h4 {
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 300;
+    }
+
+    footer .grupo-1 .box p {
+        margin-left: 4rem;
+        margin-bottom: 5px;
+        line-height: 2rem;
+        font-size: 4vw;
+    }
+    .atajos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+    .suscribete h6 {
+        font-size: 4vw;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .suscribete button {
+        background-color: var(--c2-color);
+        border-style: solid;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 30px;
+        position: relative;
+        left: 3rem;
+        top: 1.5rem;
+        font-size: 5vw;
+        font-family: Montserrat;
+        font-weight: 300;
+    }
+
+    .red-social {
+        position: relative;
+        left: 3rem;
+        top: 2rem;
+    }
 }
