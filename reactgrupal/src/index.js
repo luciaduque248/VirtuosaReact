@@ -15,6 +15,9 @@ import Descuentos from './pages/ropa/DescuentosRS';
 import Diseña from './pages/ropa/DiseñaRS';
 import Tendencias from './pages/ropa/TendenciasRS';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
