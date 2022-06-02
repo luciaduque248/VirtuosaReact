@@ -45,8 +45,8 @@ function Home() {
             <ul class="nav-menu">
 
                 <li><a href="/experiencias" class="item">EXPERIENCIAS</a></li>
-                <li><a href="*" class="item">NOSOTROS</a></li>
-                <li><a href="*" class="item">CONTACTO</a></li>
+                <li><a href="/nosotros" class="item">NOSOTROS</a></li>
+                <li><a href="/contacto" class="item">CONTACTO</a></li>
 
             </ul>
         </nav>

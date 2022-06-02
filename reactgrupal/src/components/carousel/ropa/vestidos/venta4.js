@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import '../../../assets/css/Vestidos.css';
-import ReactPlayer from 'react-player'
 
 import '../../../../components/assets/css/Vestidos.css'
 

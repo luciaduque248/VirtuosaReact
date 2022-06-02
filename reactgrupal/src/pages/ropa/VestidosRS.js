@@ -2,7 +2,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import Home from '../../components/home/home';  // nav bar
 
-import '../../components/assets/css/Vestidos.css';
+import '../../../src/components/assets/css/Vestidos.css';
 
 import Venta1 from '../../components/assets/img/ropa/banner/apartados/ventas/venta1.png';
 import Venta2 from '../../components/assets/img/ropa/banner/apartados/ventas/venta2.jpeg';

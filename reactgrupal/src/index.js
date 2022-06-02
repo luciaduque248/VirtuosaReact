@@ -9,6 +9,8 @@ import Moda from './pages/Moda';
 import Tips from './pages/Tips';
 import Experiencias from './pages/Experiencias';
 import Error404 from './pages/Error404';
+import Nosotros from './pages/Nosotros';
+import Contacto from './pages/Contacto';
 
 import Vestidos from './pages/ropa/VestidosRS';
 import Descuentos from './pages/ropa/DescuentosRS';
@@ -27,6 +29,8 @@ root.render(
       <Route path='/moda' element={<Moda />}></Route>
       <Route path='/tips' element={<Tips />}></Route>
       <Route path='/experiencias' element={<Experiencias />}></Route>
+      <Route path='/nosotros' element={<Nosotros />}></Route>
+      <Route path='/contacto' element={<Contacto />}></Route>
 
       <Route path='/moda-vestidos' element={<Vestidos />}></Route>
       <Route path='/moda-descuentos' element={<Descuentos />}></Route>
