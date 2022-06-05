@@ -18,7 +18,7 @@ body{
 /* ::::::::::::::::::::::::::::::::::::::::: BODY ::::::::::::::::::::::::::::::::::::::::: */
 
 .viste-a-la-moda {
-    background-image: url(../img/ropa/banner/apartados/ventas.gif);
+    background-image: url(https://img.freepik.com/free-photo/woman-with-handbag-close-up-white-background_176873-12611.jpg?w=740);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -28,7 +28,7 @@ body{
 
 .viste-a-la-moda {
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    color: rgb(64, 63, 63);
     display: grid;
     justify-content: flex-start;
     align-content: center;
