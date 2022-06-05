@@ -21,6 +21,7 @@ import Nov3 from '../../components/assets/img/ropa/banner/apartados/tendencias/3
 import Nov4 from '../../components/assets/img/ropa/banner/apartados/tendencias/4.jpeg';
 import Nov5 from '../../components/assets/img/ropa/banner/apartados/tendencias/5.webp';
 import Nov6 from '../../components/assets/img/ropa/banner/apartados/tendencias/6.webp';
+import { Link } from 'react-router-dom';
 
 function Tendencias() {
     return (
@@ -32,48 +33,14 @@ function Tendencias() {
             </section>
 
             <div className="container-nov">
-                <div className="sidebar">
-                    <div className="titulo">
-                        <h1>Productos<br />Destacados</h1>
-                    </div>
-                    <div className="image1">
-                        <img src={Destacado1} alt="" />
-                    </div>
-                    <div className="image2">
-                        <img src={Destacado2} alt="" />
-                    </div>
-                    <div className="image3">
-                        <img src={Destacado3} alt="" />
-                    </div>
-                    <div className="image4">
-                        <img src={Destacado4} alt="" />
-                    </div>
-                    <div className="image5">
-                        <img src={Destacado5} alt="" />
-                    </div>
-                    <div className="image6">
-                        <img src={Destacado6} alt="" />
-                    </div>
-                    <div className="image7">
-                        <img src={Destacado7} alt="" />
-                    </div>
-                    <div className="image8">
-                        <img src={Destacado8} alt="" />
-                    </div>
-                    <div className="image9">
-                        <img src={Destacado9} alt="" />
-                    </div>
-                    <div className="image10">
-                        <img src={Destacado10} alt="" />
-                    </div>
-                </div>
+                
                 
                 <div className="content">
                     <div className="text1">
                         <p>Descubre la actualidad de moda en <span className="special">Virtuosa.com</span>. Lo último en looks, diseñadores, accesorios, pasarelas y tendencias de moda. Obtenga información puntual de todas las pasarelas internacionales y toda la información sobre las mejores 'top models' del mundo.</p>
                         <br />
                         <p>Estamos revolucionando el mundo de la moda con inteligencia. Pide todo lo que quieres y necesitas para tu look perfecto, encuentralo en pocos clicks y las 24 horas del dia, con servicios de entrega nacional.
-                            <em><span className="special">Virtuosa #SmartFashion</span></em> es el mayor e-commerce de moda y estilo de vida en Latinoamerica y a nivel internacional.</p>
+                            <em><span className="special"> Virtuosa #SmartFashion</span></em> es el mayor e-commerce de moda y estilo de vida en Latinoamerica y a nivel internacional.</p>
                     </div>
                     <div className="text2">
                         <em>¡Ahora es el momento de refrescar tu look! Descubre lo que el mundo tiene para ti en la moda y maquillaje.</em>
@@ -115,10 +82,10 @@ function Tendencias() {
                         </div>
                     </div>
                     <div className="selection">
-                        <p className='pages'>1<br/>
-                        2<br/>
-                        3<br/>
-                        2...<br/></p>
+                        <Link to="*" className="page1">1</Link>
+                        <Link to="*" className="pages">2</Link>
+                        <Link to="*" className="pages">3</Link>
+                        <Link to="*" className="pages">...</Link>
                     </div>
                 </div>
             </div>
