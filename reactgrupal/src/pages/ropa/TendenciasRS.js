@@ -1,0 +1,132 @@
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
+import Home from '../../components/home/home';  // nav bar
+
+import '../../components/assets/css/Tendencias.css';
+
+import Destacado1 from '../../components/assets/img/ropa/banner/apartados/ventas/venta1.png';
+import Destacado2 from '../../components/assets/img/ropa/banner/apartados/ventas/venta2.jpeg'
+import Destacado3 from '../../components/assets/img/ropa/banner/apartados/ventas/venta3.png'
+import Destacado4 from '../../components/assets/img/ropa/banner/apartados/ventas/venta4.jpeg';
+import Destacado5 from '../../components/assets/img/ropa/banner/apartados/ventas/venta5.jpeg';
+import Destacado6 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento1.png';
+import Destacado7 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento2.png';
+import Destacado8 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento3.png';
+import Destacado9 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento4.png';
+import Destacado10 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento5.png';
+
+import Nov1 from '../../components/assets/img/ropa/banner/apartados/tendencias/1.jpeg';
+import Nov2 from '../../components/assets/img/ropa/banner/apartados/tendencias/2.jpeg';
+import Nov3 from '../../components/assets/img/ropa/banner/apartados/tendencias/3.webp';
+import Nov4 from '../../components/assets/img/ropa/banner/apartados/tendencias/4.jpeg';
+import Nov5 from '../../components/assets/img/ropa/banner/apartados/tendencias/5.webp';
+import Nov6 from '../../components/assets/img/ropa/banner/apartados/tendencias/6.webp';
+
+function Tendencias() {
+    return (
+        <div>
+            <Header />
+            <Home />
+            <section className="banner-nov">
+                <h1>NOVEDADES<br />TENDENCIAS</h1>
+            </section>
+
+            <div className="container-nov">
+                <div className="sidebar">
+                    <div className="titulo">
+                        <h1>Productos<br />Destacados</h1>
+                    </div>
+                    <div className="image1">
+                        <img src={Destacado1} alt="" />
+                    </div>
+                    <div className="image2">
+                        <img src={Destacado2} alt="" />
+                    </div>
+                    <div className="image3">
+                        <img src={Destacado3} alt="" />
+                    </div>
+                    <div className="image4">
+                        <img src={Destacado4} alt="" />
+                    </div>
+                    <div className="image5">
+                        <img src={Destacado5} alt="" />
+                    </div>
+                    <div className="image6">
+                        <img src={Destacado6} alt="" />
+                    </div>
+                    <div className="image7">
+                        <img src={Destacado7} alt="" />
+                    </div>
+                    <div className="image8">
+                        <img src={Destacado8} alt="" />
+                    </div>
+                    <div className="image9">
+                        <img src={Destacado9} alt="" />
+                    </div>
+                    <div className="image10">
+                        <img src={Destacado10} alt="" />
+                    </div>
+                </div>
+                
+                <div className="content">
+                    <div className="text1">
+                        <p>Descubre la actualidad de moda en <span className="special">Virtuosa.com</span>. Lo último en looks, diseñadores, accesorios, pasarelas y tendencias de moda. Obtenga información puntual de todas las pasarelas internacionales y toda la información sobre las mejores 'top models' del mundo.</p>
+                        <br />
+                        <p>Estamos revolucionando el mundo de la moda con inteligencia. Pide todo lo que quieres y necesitas para tu look perfecto, encuentralo en pocos clicks y las 24 horas del dia, con servicios de entrega nacional.
+                            <em><span className="special">Virtuosa #SmartFashion</span></em> es el mayor e-commerce de moda y estilo de vida en Latinoamerica y a nivel internacional.</p>
+                    </div>
+                    <div className="text2">
+                        <em>¡Ahora es el momento de refrescar tu look! Descubre lo que el mundo tiene para ti en la moda y maquillaje.</em>
+                    </div>
+                    <div className="nov1">
+                        <img src={Nov1} alt="dior" />
+                        <div className="summary1">
+                            <h5>Dior presentará su colección Crucero 2023 en Sevilla</h5>
+                        </div>
+                    </div>
+                    <div className="nov2">
+                        <img src={Nov2} alt="labios" />
+                        <div className="summary2">
+                            <h5>Encuentra los mejores labiales rojos para cada tono de piel </h5>
+                        </div>
+                    </div>
+                    <div className="nov3">
+                        <img src={Nov3} alt="bolsos" />
+                        <div className="summary3">
+                            <h5>7 bolsos de capricho para arrasar esta primavera</h5>
+                        </div>
+                    </div>
+                    <div className="nov4">
+                        <img src={Nov4} alt="" />
+                        <div className="summary4">
+                            <h5>Zara de Plaza España: así es la tienda de Inditex más grande del mundo que acaba de abrir en Madrid</h5>
+                        </div>
+                    </div>
+                    <div className="nov5">
+                        <img src={Nov5} alt="" />
+                        <div className="summary5">
+                            <h5>Deporte al aire libre: por qué es mejor entrenar cerca de la naturaleza</h5>
+                        </div>
+                    </div>
+                    <div className="nov6">
+                        <img src={Nov6} alt="" />
+                        <div className="summary6">
+                            <h5>Cuidado facial: 3 productos (tamaño viaje) que no pueden faltar en un buen neceser de vacaciones</h5>
+                        </div>
+                    </div>
+                    <div className="selection">
+                        <p className='pages'>1<br/>
+                        2<br/>
+                        3<br/>
+                        2...<br/></p>
+                    </div>
+                </div>
+            </div>
+            <Footer/>
+        </div>
+        
+    )
+
+}
+
+export default Tendencias;

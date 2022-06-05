@@ -19,13 +19,13 @@ function Descuentos() {
         <div>
             <Header />
             <Home />
-            <section class="banner">
+            <section class="banner-descuentos">
                 <h1>-50%</h1>
             </section>
 
-            <main class="contenedor">
+            <div class="contenedor-descuentos">
                 <h1>Descuentos</h1>
-                <div class="container">
+                <div class="container-descuentos">
                     <div class="boton1">
                         <select name="corte" id="corte">
                             <option value="0" selected>Corte</option>
@@ -623,7 +623,7 @@ function Descuentos() {
                     <div class="solo2"></div>
                 </div>
 
-            </main>
+            </div>
 
             <Footer />
         </div>
