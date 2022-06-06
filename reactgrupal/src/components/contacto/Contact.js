@@ -141,11 +141,11 @@ const App = () => {
             </Formulario>
 
             <div className="contact-info">
-                    <div>¡Hola! Gracias por comunicarte con nosotros, por favor déjanos el detalle de tu pregunta, novedad, o problema con el envío.<br /><br />Recuerda que la respuesta por este medio puede tardar entre 1-5 días hábiles sin contar sábados, domingos ni festivos, responderemos lo más pronto posible, y entre más concreto seas con la información de la novedad será más fácil y rápido darte solución.</div>
+                    <div>¡Hola! Gracias por comunicarte con nosotros, por favor déjanos el detalle de tu pregunta, novedad, o problema con el envío.<br /><br />Recuerda que la respuesta por este medio puede tardar entre 1-5 días hábiles sin contar sábados, domingos ni festivos, responderemos lo más pronto posible, y entre más concreto seas con la información de la novedad será más fácil y rápido darte solución.</div><br/>
                     <ul>
-                        <li><i className="fa-solid fa-envelope"></i> servicioalcliente@virtuosa.com</li>
-                        <li><i className="fa-solid fa-location-dot"></i> Bogotá, Colombia</li>
-                        <li><i className="fa-solid fa-phone"></i> (601) 543 26 11</li>
+                        <li><i className="fa-solid fa-envelope"></i> servicioalcliente@virtuosa.com</li><br/>
+                        <li><i className="fa-solid fa-location-dot"></i> Bogotá, Colombia</li><br/>
+                        <li><i className="fa-solid fa-phone"></i> (601) 543 26 11</li><br/>
                     </ul>
                 </div>
         </main>
