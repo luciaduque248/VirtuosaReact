@@ -41,7 +41,9 @@ function Home() {
 
             </ul>
             <Link to="/">
+
             <div class="logo"><img src={logoVirtuosa} alt="logo" /></div></Link>
+            
             <ul class="nav-menu">
 
                 <li><a href="/experiencias" class="item">EXPERIENCIAS</a></li>
