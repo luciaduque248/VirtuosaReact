@@ -496,7 +496,7 @@ function Descuentos() {
                         </div>
                         <div class="text-card" id="product1">
                             <a href="#modal8">
-                                <h4>Vestido ajustado hasta la rodilla</h4>
+                                <h4>Vestido ajustado a la rodilla</h4>
                             </a>
                             <p>$ 100.000</p>
                             <div class="select-icon">
