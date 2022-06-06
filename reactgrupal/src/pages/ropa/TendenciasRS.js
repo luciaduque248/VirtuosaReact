@@ -1,4 +1,4 @@
-import Header from '../../components/header/header';
+import NoAlert from '../../components/header/NoAlert';
 import Footer from '../../components/footer/footer';
 import Home from '../../components/home/home';  // nav bar
 
@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 function Tendencias() {
     return (
         <div>
-            <Header />
+            <NoAlert/>
             <Home />
             <section className="banner-nov">
                 <h1>NOVEDADES<br />TENDENCIAS</h1>

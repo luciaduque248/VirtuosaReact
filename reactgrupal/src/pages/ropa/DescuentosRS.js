@@ -1,4 +1,4 @@
-import Header from '../../components/header/header';
+import NoAlert from '../../components/header/NoAlert';
 import Footer from '../../components/footer/footer';
 import Home from '../../components/home/home';  // nav bar
 
@@ -14,10 +14,11 @@ import Slide7 from '../../components/carousel/ropa/descuentos/descuento7';
 import Slide8 from '../../components/carousel/ropa/descuentos/descuento8';
 import Slide9 from '../../components/carousel/ropa/descuentos/descuento9';
 
+
 function Descuentos() {
     return (
         <div>
-            <Header />
+            <NoAlert/>
             <Home />
             <section class="banner-descuentos">
                 <h1>SALES</h1>

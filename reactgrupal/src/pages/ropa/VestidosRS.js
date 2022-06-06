@@ -1,4 +1,4 @@
-import Header from '../../components/header/header';
+import NoAlert from '../../components/header/NoAlert';
 import Footer from '../../components/footer/footer';
 import Home from '../../components/home/home';  // nav bar
 
@@ -18,10 +18,11 @@ import Slide7 from '../../components/carousel/ropa/vestidos/venta7';
 import Slide8 from '../../components/carousel/ropa/vestidos/venta8';
 import Slide9 from '../../components/carousel/ropa/vestidos/venta9';
 
+
 function Vestidos() {
     return (
         <div>
-            <Header />
+            <NoAlert/>
             <Home />
             <section class="viste-a-la-moda">
                 <h1>VISTE A LA MODA</h1>
