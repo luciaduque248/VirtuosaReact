@@ -1,8 +1,8 @@
 .banner-descuentos {
-    background-image: url(../img/ropa/banner/apartados/descuentos.gif);
+    background-image: url(https://res.cloudinary.com/colombia/image/upload/v1654479462/kuepa/arno-senoner-UhvEJosq-Zo-unsplash-7902x5926_a1y5mq.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 450px;
 }
 
 .banner-descuentos {
@@ -11,22 +11,23 @@
     display: grid;
     justify-content: flex-start;
     align-content: center;
-
+    text-align: center;
     padding: 0 4rem;
 }
 
 .banner-descuentos h1 {
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 5px rgba(128, 128, 128, 0.743);
+    text-align: center;
+    letter-spacing: 100px;
+    text-shadow: 5px 4px 5px rgba(87, 87, 87, 0.743);
     padding: 1rem;
-    width: 300px;
+    padding-left: 8rem;
+    width: 90vw;
     font-size: 240px;
-    border-left: 5px solid white;
-    font-weight: 300;
+    font-weight: bolder;
 }
 
 .contenedor-descuentos {
-    background-color: #f0eaf9;
+    background-color: white;
     padding: 1rem 2rem;
     text-align: center;
     color: #19191B;

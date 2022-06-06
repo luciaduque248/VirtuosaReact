@@ -4,17 +4,6 @@ import Home from '../../components/home/home';  // nav bar
 
 import '../../components/assets/css/Tendencias.css';
 
-import Destacado1 from '../../components/assets/img/ropa/banner/apartados/ventas/venta1.png';
-import Destacado2 from '../../components/assets/img/ropa/banner/apartados/ventas/venta2.jpeg'
-import Destacado3 from '../../components/assets/img/ropa/banner/apartados/ventas/venta3.png'
-import Destacado4 from '../../components/assets/img/ropa/banner/apartados/ventas/venta4.jpeg';
-import Destacado5 from '../../components/assets/img/ropa/banner/apartados/ventas/venta5.jpeg';
-import Destacado6 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento1.png';
-import Destacado7 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento2.png';
-import Destacado8 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento3.png';
-import Destacado9 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento4.png';
-import Destacado10 from '../../components/assets/img/ropa/banner/apartados/descuentos/descuento5.png';
-
 import Nov1 from '../../components/assets/img/ropa/banner/apartados/tendencias/1.jpeg';
 import Nov2 from '../../components/assets/img/ropa/banner/apartados/tendencias/2.jpeg';
 import Nov3 from '../../components/assets/img/ropa/banner/apartados/tendencias/3.webp';

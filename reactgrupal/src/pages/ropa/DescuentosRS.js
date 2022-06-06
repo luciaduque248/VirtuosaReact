@@ -20,7 +20,7 @@ function Descuentos() {
             <Header />
             <Home />
             <section class="banner-descuentos">
-                <h1>-50%</h1>
+                <h1>SALES</h1>
             </section>
 
             <div class="contenedor-descuentos">
