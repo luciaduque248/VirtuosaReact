@@ -24,7 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/VirtuosaReact' element={<Inicio />} ></Route>
+      <Route path='/VirtuosaReact/' element={<Inicio />} ></Route>
       <Route path='/VirtuosaReact/maquillaje' element={<Maquillaje />}></Route>
       <Route path='/VirtuosaReact/moda' element={<Moda />}></Route>
       <Route path='/VirtuosaReact/tips' element={<Tips />}></Route>
