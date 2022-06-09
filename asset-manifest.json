@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VirtuosaReact/static/css/main.73fb6ca6.css",
-    "main.js": "/VirtuosaReact/static/js/main.ec089f75.js",
+    "main.js": "/VirtuosaReact/static/js/main.ac7cf764.js",
     "static/media/ropaIndex.svg": "/VirtuosaReact/static/media/ropaIndex.2d777b61a3d31440fb65.svg",
     "static/media/imgContactanos.png": "/VirtuosaReact/static/media/imgContactanos.c4b57f29ceaa3c53e426.png",
     "static/media/1.jpeg": "/VirtuosaReact/static/media/1.a4c23b1033ba95a5bdd5.jpeg",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/VirtuosaReact/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/VirtuosaReact/index.html",
     "main.73fb6ca6.css.map": "/VirtuosaReact/static/css/main.73fb6ca6.css.map",
-    "main.ec089f75.js.map": "/VirtuosaReact/static/js/main.ec089f75.js.map"
+    "main.ac7cf764.js.map": "/VirtuosaReact/static/js/main.ac7cf764.js.map"
   },
   "entrypoints": [
     "static/css/main.73fb6ca6.css",
-    "static/js/main.ec089f75.js"
+    "static/js/main.ac7cf764.js"
   ]
 }
