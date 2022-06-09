@@ -2,7 +2,9 @@
     background-image: url(https://images.unsplash.com/photo-1545535408-2b4d520cbd88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-position: center;
     background-size: cover;
-    height: 450px;
+    width: 100%;
+    max-width: 1500px;
+    height: 400px;
 }
 
 .banner-descuentos {
@@ -35,7 +37,7 @@
 }
 
 .contenedor-descuentos h1 {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .container-descuentos {
@@ -397,11 +399,14 @@ a{
 }
 
 /* ::::::::::::: MEDIA QUERY: celular ::::::::::::: */
-@media only screen and (max-width : 360px) {
-    .container {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    .container-descuentos {
+        background-color: red;
+        height: 100px;
         display: grid;
-        grid-template-columns: 150px;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 150px 50px;
+        grid-template-rows: 1fr 1fr;
         gap: 0px 10px;
         grid-auto-flow: row;
         grid-template-areas:
@@ -410,41 +415,57 @@ a{
             "boton2";
     }
 
-    .boton1 select{ width:500px; margin-left: 5rem;}
+    .banner-descuentos h1 {
+        text-align: center;
+        letter-spacing: 20px;
+        text-shadow: 5px 4px 5px rgba(87, 87, 87, 0.743);
+        padding: 1rem;
+        padding-left: 0rem;
+        width: 90vw;
+        font-size: 240px;
+        font-weight: bolder;
+    }
 
-    .boton2 select{margin-top: 5rem; margin-left: 4rem; margin-bottom: 3rem;}
-}
+    .contenedor-descuentos h1 {
+        font-size: 40px;
+    }
 
-/* ::::::::::::: MEDIA QUERY: celular ::::::::::::: */
-@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
+    .boton1 select{ width:500px; margin-left: 1rem;}
+    .modalPicture{max-width: 60vw;}
+    .video{
+        background-color: #A695C2;
+        border-radius: 30px;
+        width: 100vw;height: auto;
+    }
+
+    .boton2 select{margin-top: 5rem; margin-left: 3rem; margin-bottom: 3rem;}
+
     body{overflow-x: hidden;}
-    footer{overflow: hidden;}
     header{overflow: hidden;}
     body{overflow-x: hidden; width: 100vw;}
     section{
         overflow: hidden;
     }
-
     main{
         overflow: hidden;
     }
+    
+    .banner-descuentos {
+        height: 200px;
+        width: 100%;
+    }
 
+    .banner-descuentos h1 {
+        width: 200px;
+        font-size: 45px;
+    }
 
-    .contenedor-descuentos h1 {
+    .contenedor h1 {
         font-size: 50px;
     }
 
 
-    .container-descuentos {
-        display: grid;
-        grid-template-columns: 150px 50px;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 10px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "boton1 boton2"
-            "boton1";
-    }
+    
     
     select {
         border: 3px solid #A695C2;
@@ -493,49 +514,72 @@ a{
         width: 100%;
         border-radius: 32px;
     }
+    .modalContainer{
+        justify-content: space-between;
+        flex-direction: column; 
+        overflow: scroll;
+        padding-top: 0rem;
+        margin-left: 1rem;
+        width: 60vw;}
 
-    .modalContainer{flex-direction: column; overflow-y: scroll; padding-top: 0rem;width: 75vw; height: 90vw;}
-    .modalTitle{font-size: 3vw;}
-    .modalP{font-size: 1.5vw;}
-    .modalTEXT{ margin-top: 2rem;}
-    .modalTEXT p{padding: 1rem;}
-    .charact li{font-size: 1.5vw;}
-    .close{right: 40px; top: 20px;}
-    .modalPicture img{object-fit: cover; width: 60vw;}
-    .modalPicture{margin-top: 3rem; margin-left: 0rem;}
+    .modalPicture{width: 160px; height: fit-content ;margin-left: -1rem; margin-top: 2rem; margin-bottom: 2rem;}
+    .modalPicture img{ width: 50vw; }
+    .modalTEXT{
+        margin-left: -0.8rem;
+    }
+    .modalTitle{
+        font-size: 5vw;
+    }
+    .modalP{
+        padding: 0rem;
+        font-size: 3vw;
+    }
 
-    .modalTitle{width: 60vw;}
-    .modalP{width:60vw;}
-    .charact{width: 60vw;}
-    .modalTEXT .select-icon{width: 60vw;}
+    .charact{
+        width: 50vw;
+        padding-top: 30px;
+        padding-left: 1.5rem;
+        padding-bottom: 30px;
+        background-color: #cfb9fa;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    .charact li{font-size: 3vw;}
+
+    .close{left: 90px;}
 
 }
 
 
 /* :::::::::::::: MEDIA QUERY : media de celular a tablet ::::::::::::::::: */
 @media (min-width: 481px) and (max-width: 767px) {
-    .boton1 select{width: 200px;}
+    .boton1 select{width: 110px;}
     .boton1 {display: flex;
-        flex-direction: column;
-        margin-bottom: -3rem;
         grid-area: boton1;
-        margin-right: 6rem;
+        margin-right: 1rem;
     }
-    body{overflow-x: hidden;}
-    footer{overflow: hidden;}
-    header{overflow: hidden;}
-    body{overflow-x: hidden;}
-    .contenedor-descuentos{align-items: center; align-content: center; align-self: center;}
 
-    .modalTEXT{width: 50vw; height: 50vw;}
+    .modalTEXT{width: 10px; height: 50vw;}
     .modalTitle{font-size: 3vw;}
     .modalP{font-size: 1.5vw;}
     .modalTEXT p{padding: 1rem;}
     .charact li{font-size: 1.5vw;}
-    .modalContainer{width: 75vw; height: 65vw;}
+    .modalContainer{padding:3rem 0 ;width: 85vmin; height: 755px;}
     .close{right: 40px;}
     .modalPicture img{object-fit: cover;}
-    .modalPicture{margin-top: 3rem;}
+    .modalPicture{margin-top: 3rem; height: 35vh;}
+    
+    body{overflow-x: hidden;}
+    .banner-descuentos{width: 100%; overflow-x: hidden;}
+    .card{max-height: 100%;}
+    .card img{max-height: 300px; height: 100%;}
+    .text-card h4{font-size: 16px;}
+    .video{
+        height: 35vh;
+    }
+
 
 }
 
@@ -551,22 +595,23 @@ a{
         margin-right: 1rem;
     }
 
-    .modalTEXT{width: 50vw; height: 50vw;}
+    .modalTEXT{width: 10px; height: 50vw;}
     .modalTitle{font-size: 3vw;}
     .modalP{font-size: 1.5vw;}
     .modalTEXT p{padding: 1rem;}
     .charact li{font-size: 1.5vw;}
-    .modalContainer{width: 75vw; height: 65vw;}
+    .modalContainer{padding:3rem 0 ;width: 85vmin; height: 755px;}
     .close{right: 40px;}
     .modalPicture img{object-fit: cover;}
-    .modalPicture{margin-top: 3rem;}
+    .modalPicture{margin-top: 3rem; height: 38vh;}
     
     body{overflow-x: hidden;}
-    footer{overflow: hidden;}
-    header{overflow: hidden; height: 200px;}
-    body{overflow-x: hidden;}
-    .viste-a-la-moda{width: 100%; overflow-x: hidden;}
+    .banner-descuentos{width: 100%; overflow-x: hidden;}
     .card{max-height: 100%;}
     .card img{max-height: 300px; height: 100%;}
     .text-card h4{font-size: 16px;}
+    .video{
+        height: 38vh;
+    }
+
 }

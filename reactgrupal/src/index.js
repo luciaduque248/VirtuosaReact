@@ -24,22 +24,22 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Inicio />} ></Route>
-      <Route path='/maquillaje' element={<Maquillaje />}></Route>
-      <Route path='/moda' element={<Moda />}></Route>
-      <Route path='/tips' element={<Tips />}></Route>
-      <Route path='/experiencias' element={<Experiencias />}></Route>
-      <Route path='/nosotros' element={<Nosotros />}></Route>
-      <Route path='/contacto' element={<Contacto />}></Route>
+      <Route path='/VirtuosaReact/' element={<Inicio />} ></Route>
+      <Route path='/VirtuosaReact/maquillaje' element={<Maquillaje />}></Route>
+      <Route path='/VirtuosaReact/moda' element={<Moda />}></Route>
+      <Route path='/VirtuosaReact/tips' element={<Tips />}></Route>
+      <Route path='/VirtuosaReact/experiencias' element={<Experiencias />}></Route>
+      <Route path='/VirtuosaReact/nosotros' element={<Nosotros />}></Route>
+      <Route path='/VirtuosaReact/contacto' element={<Contacto />}></Route>
 
-      <Route path='/moda-vestidos' element={<Vestidos />}></Route>
-      <Route path='/moda-descuentos' element={<Descuentos />}></Route>
-      <Route path='/moda-diseña' element={<Diseña />}></Route>
-      <Route path='/moda-tendencias' element={<Tendencias />}></Route>
+      <Route path='/VirtuosaReact/moda-vestidos' element={<Vestidos />}></Route>
+      <Route path='/VirtuosaReact/moda-descuentos' element={<Descuentos />}></Route>
+      <Route path='/VirtuosaReact/moda-diseña' element={<Diseña />}></Route>
+      <Route path='/VirtuosaReact/moda-tendencias' element={<Tendencias />}></Route>
 
       <Route path='*' element={<Error404 />}></Route>
 
-      <Route path='/home' element={<Navigate replace to={"/"} />}></Route>
+      <Route path='/VirtuosaReact/home' element={<Navigate replace to={"/VirtuosaReact/"} />}></Route>
 
     </Routes>
   </BrowserRouter>

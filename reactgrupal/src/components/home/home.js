@@ -10,45 +10,44 @@ function Home() {
 
             <ul class="nav-menu">
                 <li>
-                    <Link to="/" className="active item">
-                    INICIO</Link>
+                    <Link to="/VirtuosaReact" className="active item">
+                        INICIO</Link>
                 </li>
                 <li>
-                    <a href="*" class="item">MAQUILLAJE <i class="fa-solid fa-angle-down"></i></a>
+                    <Link to="*" class="item">MAQUILLAJE <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><a href="*">Rubor</a></li>
-                        <li><a href="*">Ojos</a></li>
-                        <li><a href="*">Piel</a></li>
-                        <li><a href="*">Labios</a></li>
+                        <li><Link href="*">Rubor</Link></li>
+                        <li><Link href="*">Ojos</Link></li>
+                        <li><Link href="*">Piel</Link></li>
+                        <li><Link href="*">Labios</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/moda" class="item">MODA <i class="fa-solid fa-angle-down"></i></a>
+                    <Link href="/VirtuosaReact/moda" class="item">MODA <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><a href="/moda-vestidos">Vestidos</a></li>
-                        <li><a href="/moda-diseña">Diseña tu look</a></li>
-                        <li><a href="/moda-tendencias">Novedades</a></li>
-                        <li><a href="/moda-descuentos">Promociones</a></li>
+                        <li><Link href="/moda-vestidos">Vestidos</Link></li>
+                        <li><Link href="/moda-diseña">Diseña tu look</Link></li>
+                        <li><Link href="/moda-tendencias">Novedades</Link></li>
+                        <li><Link href="/moda-descuentos">Promociones</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/tips" class="item">TIPS <i class="fa-solid fa-angle-down"></i></a>
+                    <Link href="/VirtuosaReact/tips" class="item">TIPS <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><a href="*">Tips Maquillaje</a></li>
-                        <li><a href="*">Tips Ropa</a></li>
+                        <li><Link href="*">Tips Maquillaje</Link></li>
+                        <li><Link href="*">Tips Ropa</Link></li>
                     </ul>
                 </li>
 
             </ul>
-            <Link to="/">
+            <Link to="/VirtuosaReact">
+                <div class="logo"><img src={logoVirtuosa} alt="logo" /></div>
+            </Link>
 
-            <div class="logo"><img src={logoVirtuosa} alt="logo" /></div></Link>
-            
             <ul class="nav-menu">
-
-                <li><a href="/experiencias" class="item">EXPERIENCIAS</a></li>
-                <li><a href="/nosotros" class="item">NOSOTROS</a></li>
-                <li><a href="/contacto" class="item">CONTACTO</a></li>
+                <li><Link href="/VirtuosaReact/experiencias" class="item">EXPERIENCIAS</Link></li>
+                <li><Link href="/VirtuosaReact/nosotros" class="item">NOSOTROS</Link></li>
+                <li><Link href="/VirtuosaReact/contacto" class="item">CONTACTO</Link></li>
 
             </ul>
         </nav>

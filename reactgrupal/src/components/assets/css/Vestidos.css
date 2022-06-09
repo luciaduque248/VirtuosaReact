@@ -28,7 +28,7 @@ body{
 
 .viste-a-la-moda {
     font-family: 'Bebas Neue', cursive;
-    color: rgb(64, 63, 63);
+    color: #403f3f;
     display: grid;
     justify-content: flex-start;
     align-content: center;
@@ -325,9 +325,8 @@ a{
     display: flex;
     margin: auto;
     background-color: white;
-    width: 100vw;
-    max-width: 1050px;
-    max-height: 100%;
+    width: 1080px;
+    height: 605px;
     overflow: hidden;
     text-align: center;
     padding: 3rem 2rem;
@@ -427,14 +426,12 @@ a{
     list-style: disc;
 }
 
-/* ::::::::::::::::::::::::::::::::::::::::: SLIDE OF MODAL ::::::::::::::::::::::::::::::::::::::::: */
-
-
 /* ::::::::::::: MEDIA QUERY: celular ::::::::::::: */
-@media only screen and (max-width : 360px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container {
+        height: 150px;
         display: grid;
-        grid-template-columns: 150px;
+        grid-template-columns: 150px 50px;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 0px 10px;
         grid-auto-flow: row;
@@ -443,30 +440,38 @@ a{
             "boton1"
             "boton2";
     }
+    .container {
+        display: grid;
+        grid-template-columns: 150px 50px;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "boton1 boton2"
+            "boton1";
+    }
 
-    .boton1 select{ width:500px; margin-left: 5rem;}
+    .boton1 select{ width:500px; margin-left: 1rem;}
+    .modalPicture{max-width: 60vw;}
+    .video{
+        background-color: #A695C2;
+        border-radius: 30px;
+        width: 100vw;height: auto;
+    }
 
-    .boton2 select{margin-top: 5rem; margin-left: 4rem; margin-bottom: 3rem;}
-}
+    .boton2 select{margin-top: 5rem; margin-left: 3rem; margin-bottom: 3rem;}
 
-/* ::::::::::::: MEDIA QUERY: celular ::::::::::::: */
-@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
     body{overflow-x: hidden;}
     header{overflow: hidden;}
     body{overflow-x: hidden; width: 100vw;}
     section{
         overflow: hidden;
     }
-
     main{
         overflow: hidden;
     }
     
     .viste-a-la-moda {
-        background-image: url(../img/ropa/banner/apartados/ventas.gif);
-        background-position: top;
-        background-size: cover;
-        background-repeat: repeat;
         height: 200px;
         width: 100%;
     }
@@ -481,16 +486,7 @@ a{
     }
 
 
-    .container {
-        display: grid;
-        grid-template-columns: 150px 50px;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 10px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "boton1 boton2"
-            "boton1";
-    }
+    
     
     select {
         border: 3px solid #A695C2;
@@ -539,51 +535,45 @@ a{
         width: 100%;
         border-radius: 32px;
     }
+    .modalContainer{
+        justify-content: space-between;
+        flex-direction: column; 
+        overflow-y: scroll; 
+        padding-top: 0rem;
+        margin-left: 2rem;}
 
-    .modalContainer{flex-direction: column; overflow-y: scroll; padding-top: 0rem;width: 75vw; height: 90vw;}
-    .modalTitle{font-size: 3vw;}
-    .modalP{font-size: 1.5vw;}
-    .modalTEXT{ margin-top: 2rem;}
-    .modalTEXT p{padding: 1rem;}
-    .charact li{font-size: 1.5vw;}
-    .close{right: 40px; top: 20px;}
-    .modalPicture img{object-fit: cover; width: 60vw;}
-    .modalPicture{margin-top: 3rem; margin-left: 0rem;}
-
-    .modalTitle{width: 60vw;}
-    .modalP{width:60vw;}
-    .charact{width: 60vw;}
-    .modalTEXT .select-icon{width: 60vw;}
+    .modalPicture{width: 300px;}
+    
 
 }
 
 
 /* :::::::::::::: MEDIA QUERY : media de celular a tablet ::::::::::::::::: */
 @media (min-width: 481px) and (max-width: 767px) {
-    .boton1 select{width: 200px;}
+    .boton1 select{width: 110px;}
     .boton1 {display: flex;
-        flex-direction: column;
-        margin-bottom: -3rem;
         grid-area: boton1;
-        margin-right: 6rem;
+        margin-right: 1rem;
     }
-    body{overflow-x: hidden;}
-    header{overflow: hidden;}
-    body{overflow-x: hidden;}
-    .contenedor{align-items: center; align-content: center; align-self: center;}
-    .viste-a-la-moda{background-size: cover; height: 200px;}
-    .viste-a-la-moda h1{font-size: 60px;}
 
-    .modalTEXT{width: 50vw; height: 50vw;}
+    .modalTEXT{width: 10px; height: 50vw;}
     .modalTitle{font-size: 3vw;}
     .modalP{font-size: 1.5vw;}
     .modalTEXT p{padding: 1rem;}
     .charact li{font-size: 1.5vw;}
-    .modalContainer{width: 75vw; height: 65vw;}
+    .modalContainer{padding:3rem 0 ;width: 85vmin; height: 755px;}
     .close{right: 40px;}
     .modalPicture img{object-fit: cover;}
-    .modalPicture{margin-top: 3rem;}
-
+    .modalPicture{margin-top: 3rem; height: 35vh;}
+    
+    body{overflow-x: hidden;}
+    .viste-a-la-moda{width: 100%; overflow-x: hidden;}
+    .card{max-height: 100%;}
+    .card img{max-height: 300px; height: 100%;}
+    .text-card h4{font-size: 16px;}
+    .video{
+        height: 35vh;
+    }
 
 
 }
@@ -600,21 +590,23 @@ a{
         margin-right: 1rem;
     }
 
-    .modalTEXT{width: 50vw; height: 50vw;}
+    .modalTEXT{width: 10px; height: 50vw;}
     .modalTitle{font-size: 3vw;}
     .modalP{font-size: 1.5vw;}
     .modalTEXT p{padding: 1rem;}
     .charact li{font-size: 1.5vw;}
-    .modalContainer{width: 75vw; height: 65vw;}
+    .modalContainer{padding:3rem 0 ;width: 85vmin; height: 755px;}
     .close{right: 40px;}
     .modalPicture img{object-fit: cover;}
-    .modalPicture{margin-top: 3rem;}
+    .modalPicture{margin-top: 3rem; height: 38vh;}
     
-    body{overflow-x: hidden;}
-    header{overflow: hidden; height: 200px;}
     body{overflow-x: hidden;}
     .viste-a-la-moda{width: 100%; overflow-x: hidden;}
     .card{max-height: 100%;}
     .card img{max-height: 300px; height: 100%;}
     .text-card h4{font-size: 16px;}
+    .video{
+        height: 38vh;
+    }
+
 }
