@@ -16,26 +16,26 @@ function Home() {
                 <li>
                     <Link to="*" class="item">MAQUILLAJE <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><Link href="*">Rubor</Link></li>
-                        <li><Link href="*">Ojos</Link></li>
-                        <li><Link href="*">Piel</Link></li>
-                        <li><Link href="*">Labios</Link></li>
+                        <li><Link to="*">Rubor</Link></li>
+                        <li><Link to="*">Ojos</Link></li>
+                        <li><Link to="*">Piel</Link></li>
+                        <li><Link to="*">Labios</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <Link href="/VirtuosaReact/moda" class="item">MODA <i class="fa-solid fa-angle-down"></i></Link>
+                    <Link to="/VirtuosaReact/moda" class="item">MODA <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><Link href="/moda-vestidos">Vestidos</Link></li>
-                        <li><Link href="/moda-diseña">Diseña tu look</Link></li>
-                        <li><Link href="/moda-tendencias">Novedades</Link></li>
-                        <li><Link href="/moda-descuentos">Promociones</Link></li>
+                        <li><Link to="/moda-vestidos">Vestidos</Link></li>
+                        <li><Link to="/moda-diseña">Diseña tu look</Link></li>
+                        <li><Link to="/moda-tendencias">Novedades</Link></li>
+                        <li><Link to="/moda-descuentos">Promociones</Link></li>
                     </ul>
                 </li>
                 <li>
-                    <Link href="/VirtuosaReact/tips" class="item">TIPS <i class="fa-solid fa-angle-down"></i></Link>
+                    <Link to="/VirtuosaReact/tips" class="item">TIPS <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><Link href="*">Tips Maquillaje</Link></li>
-                        <li><Link href="*">Tips Ropa</Link></li>
+                        <li><Link to="*">Tips Maquillaje</Link></li>
+                        <li><Link to="*">Tips Ropa</Link></li>
                     </ul>
                 </li>
 
@@ -45,9 +45,9 @@ function Home() {
             </Link>
 
             <ul class="nav-menu">
-                <li><Link href="/VirtuosaReact/experiencias" class="item">EXPERIENCIAS</Link></li>
-                <li><Link href="/VirtuosaReact/nosotros" class="item">NOSOTROS</Link></li>
-                <li><Link href="/VirtuosaReact/contacto" class="item">CONTACTO</Link></li>
+                <li><Link to="/VirtuosaReact/experiencias" class="item">EXPERIENCIAS</Link></li>
+                <li><Link to="/VirtuosaReact/nosotros" class="item">NOSOTROS</Link></li>
+                <li><Link to="/VirtuosaReact/contacto" class="item">CONTACTO</Link></li>
 
             </ul>
         </nav>
