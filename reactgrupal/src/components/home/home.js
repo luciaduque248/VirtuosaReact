@@ -25,10 +25,10 @@ function Home() {
                 <li>
                     <Link to="/VirtuosaReact/moda" class="item">MODA <i class="fa-solid fa-angle-down"></i></Link>
                     <ul class="submenu">
-                        <li><Link to="/moda-vestidos">Vestidos</Link></li>
-                        <li><Link to="/moda-diseña">Diseña tu look</Link></li>
-                        <li><Link to="/moda-tendencias">Novedades</Link></li>
-                        <li><Link to="/moda-descuentos">Promociones</Link></li>
+                        <li><Link to="/VirtuosaReact/moda-vestidos">Vestidos</Link></li>
+                        <li><Link to="/VirtuosaReact/moda-diseña">Diseña tu look</Link></li>
+                        <li><Link to="/VirtuosaReact/moda-tendencias">Novedades</Link></li>
+                        <li><Link to="/VirtuosaReact/moda-descuentos">Promociones</Link></li>
                     </ul>
                 </li>
                 <li>
